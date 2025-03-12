@@ -148,7 +148,7 @@
 
         // Play hiss sound on hover
         snakeImage.addEventListener('mouseover', () => {
-            hissSound.play();
+            // hissSound.play();
         });
 
         // Stop sound on mouse out
@@ -160,7 +160,7 @@
         // Play hiss sound and toggle animation on click
         snakeContainer.addEventListener('click', () => {
             if (!isAnimating) {
-                hissSound.play(); // Play sound on click
+                // hissSound.play(); // Play sound on click
                 snakeImage.classList.add('animate'); // Start animation
             } else {
                 hissSound.pause(); // Stop sound
